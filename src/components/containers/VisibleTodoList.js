@@ -3,6 +3,7 @@ import { toggleTodo } from '../../redux/actions'
 import TodoList from '../redux/TodoList'
 
 const getVisibleTodos = (todos, filter) => {
+  console.log(todos)
   switch (filter) {
     case 'SHOW_ALL':
       return todos
