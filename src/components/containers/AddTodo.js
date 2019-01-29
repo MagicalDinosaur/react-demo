@@ -13,6 +13,7 @@ let AddTodo = ({ dispatch }) => {
           if (!input.value.trim()) {
             return
           }
+          console.log(input.value)
           dispatch(addTodo(input.value))
           input.value = ''
         }}
