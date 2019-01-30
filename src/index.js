@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
 // import './index.css';
-// import App from './App';
-import App from './components/App'
+import App from './App';
+// import App from './components/App'
 import registerServiceWorker from './registerServiceWorker';
 
 // redux
@@ -14,12 +14,15 @@ import todoApp from './redux/reducers.js'
 let store = createStore(todoApp)
 
 //这里是出口文件 
-ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>,
-    document.getElementById('root'));
+// ReactDOM.render(
+//     <Provider store={store}>
+//         <App />
+//     </Provider>,
+//     document.getElementById('root'));
 registerServiceWorker();
+
+
+
 
 
 
