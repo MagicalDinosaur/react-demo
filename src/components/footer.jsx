@@ -13,10 +13,10 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            <div className="foot">
+            <footer className="foot">
                 <span>@{this.state.name}</span>
                 <span>  这是一个footer</span>
-            </div>
+            </footer>
         )
     }
 }

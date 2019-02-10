@@ -8,9 +8,9 @@ import Root from './router/index';
 import registerServiceWorker from './registerServiceWorker';
 
 // redux
-import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 
+import { createStore } from 'redux'
 import todoApp from './redux/reducers.js'
 
 let store = createStore(todoApp)
