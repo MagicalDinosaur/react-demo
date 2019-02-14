@@ -8,7 +8,7 @@ import Header from '../components/header';
 import Main from '../components/main';
 
 import Page1 from '../pages/page1';
-import ReduxDemo from '../components/App';
+import ReduxDemo from '../components/reduxDemo';
 
 
 
@@ -20,7 +20,7 @@ import ReduxDemo from '../components/App';
             <Route exact path='/' component={Main}></Route>
             <Route exact path='/reduxdemo' component={ReduxDemo}></Route>
              {/* 公共组件写在这里 */}
-            <Foot />
+            <Foot name="duhonghui" />
         </div>
     </HashRouter>
 )

@@ -9,7 +9,6 @@ export default class Footer extends React.Component {
         }
     }
 
-
     componentWillMount() {
         console.log(this.props)
     }
@@ -17,7 +16,7 @@ export default class Footer extends React.Component {
     render() {
         return (
             <footer className="foot">
-                <span>@{this.props.name}</span>
+                <span>@{this.props.name} </span>
                 <span>{this.state.content}</span>
             </footer>
         )
